@@ -1,0 +1,35 @@
+body {
+    background-color: grey;
+    font-family: Impact, sans-serif;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-size: 18px;
+    color: purple;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+
+}
+
+td {
+    border: 1px solid black;
+}
