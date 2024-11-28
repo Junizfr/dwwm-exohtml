@@ -4,6 +4,10 @@ body {
     font-size: 24px;
 }
 
+.body-flex {
+    background-color: white;
+}
+
 nav a {
     text-decoration: none;
     color: white;
@@ -32,4 +36,66 @@ th {
 
 td {
     border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.color-container {
+    width: 50%;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 150px;
+}
+
+.blue {
+    background-color: blue;
+    height: 500px;
+    width: 50%;
+}
+
+.green {
+    background-color: green;
+    height: 250px;
+}
+
+.orange {
+    background-color: orange;
+    height: 250px;
+    width: 50%;
+}
+
+.grey {
+    background-color: #084c4d;
+    height: 125px;
+    width: 100%;
+}
+
+.white {
+    background-color: #f5f5dc;
+    height: 125px;
+    width: 50%;
+}
+
+.black {
+    background-color: black;
+    height: 125px;
+    width: 50%;
 }
